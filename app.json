@@ -11,6 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+{
+  "stack": "heroku-22"
+}
+
     "env": {
       "API_ID": {
         "description": "Enter Your API ID",
