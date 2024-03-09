@@ -60,3 +60,5 @@
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Jack-of-tg](https://github.com/Jack-of-tg) For media ReplaceBot
 ---
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/telegrambots0/Text-Replace-Bot)
