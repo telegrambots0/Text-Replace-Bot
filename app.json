@@ -11,9 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-{
-  "stack": "heroku-22"
-}
 
     "env": {
       "API_ID": {
