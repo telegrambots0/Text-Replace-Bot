@@ -11,7 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "env": {
       "API_ID": {
         "description": "Enter Your API ID",
