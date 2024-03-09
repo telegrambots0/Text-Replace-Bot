@@ -13,6 +13,32 @@
     },
     "extra": {
       "customConfig": true
+        }
+    ],
+    "repository": "https://github.com/telegrambots0/Swarg-txt-uploader",
+    "success_url": "https://t.me/HackingWithYou",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
     }
-  }
-}
