@@ -14,8 +14,7 @@
     "extra": {
       "customConfig": true
         }
-    ],
-    "repository": "https://github.com/telegrambots0/Swarg-txt-uploader",
+"repository": "https://github.com/telegrambots0/Text-Replace-Bot",
     "success_url": "https://t.me/HackingWithYou",
     "stack": "container",
     "env": {
@@ -42,3 +41,5 @@
         }
     ]
     }
+
+    
