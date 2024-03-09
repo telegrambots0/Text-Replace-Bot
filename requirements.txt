@@ -1,3 +1,4 @@
 requests==2.26.0
 pyromod==3.1.6
+pip install TgCrypto
 
