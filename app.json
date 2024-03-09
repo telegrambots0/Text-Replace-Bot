@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Telegram-Bots",
+    "name": "Unified-Telegram-Bot",
     "version": "1.0.0",
-    "description": "A collection of Telegram bots",
+    "description": "A bot with auto caption, auto forward, and text replacement features",
     "platforms": ["ios", "android"],
     "sdkVersion": "42.0.0",
     "icon": "./assets/icon.png",
@@ -29,9 +29,6 @@
     "buildpacks": [
       {
         "url": "heroku/python"
-      },
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
       }
     ],
     "extra": {
@@ -42,8 +39,8 @@
       },
       "autoForwardConfig": {
         "enabled": true,
-        "fromChannel": "@source_channel",
-        "toChannel": "@destination_channel"
+        "fromChannels": ["@source_channel1", "@source_channel2"],
+        "toChats": ["@destination_channel1", "@destination_channel2"]
       },
       "autoTextReplacementConfig": {
         "enabled": true,
